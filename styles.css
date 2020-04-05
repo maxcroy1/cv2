@@ -1,0 +1,135 @@
+/*************TAG SELECTORS************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Gotu', sans-serif;
+  font-size: 5.62em;
+  margin: 50px 0 0 0;
+  color: #333333;
+  line-height: .7;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #333333;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #706c61;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #e1f4f3;
+  border-width: 8px;
+  width: 5%;
+}
+
+a {
+  color: #706c61;
+  text-decoration: none;
+}
+
+/************************CLASS SELECTORS****************/
+
+.top-container {
+  background-color: #e1f4f3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 50px;
+}
+
+.bottom-container {
+  background-color: #e1f4f3;
+  padding: 50px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.strategy-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.analytics-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.profile {
+  margin: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 30px;
+  background-color: #706C61;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #706C61 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 34px;
+}
+
+.footer-link {
+  margin: 0 40px;
+}
+
+.intro {
+  margin: auto;
+  width: 50%;
+}
+
+.outro {
+  margin: auto;
+  width: 50%;
+}
